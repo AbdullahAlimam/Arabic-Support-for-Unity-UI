@@ -1,0 +1,2 @@
+This is a free Asset depending on an this free arabic support asset 
+https://assetstore.unity.com/packages/tools/gui/arabic-support-for-unity-2674

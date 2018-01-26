@@ -1,0 +1,18 @@
+there is two methods you can use to use arabic text with unity Text UI
+
+Method 1:
+1- Add [arText] Prefab to your canvance.
+2- Add some arabic Text in Text Field of [ArabicText] Component
+
+Method 2:
+1- Add New [Text UI] to your scene [GameObject -> UI -> Text]
+2- add [ArabicText] Component to you Text UI
+3- Add some arabic Text in Text Field of [ArabicText] Component
+
+
+Notes:
+1- you can use [ShowTashkeel Field] to show arabic Tashkeel
+2- you can use [UseHinduNumbers Field] to show number in Hindu.
+
+Video Tutorial:
+https://www.youtube.com/watch?v=senKV2CdH6Y
