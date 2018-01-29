@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using ArabicSupport;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ public class ArabicText : MonoBehaviour
 {
     [Multiline]
     public string Text;
+    public InputField RefrenceInput;
     public bool ShowTashkeel;
     public bool UseHinduNumbers;
 
@@ -24,7 +26,6 @@ public class ArabicText : MonoBehaviour
     private bool OldEnabled = false; // For Refresh on enabled change // when text ui is not active then arabic text will not trigered when the control get active
     private List<RectTransform> OldRectTransformParents = new List<RectTransform>(); // For Refresh on parent resizing
     private Vector2 OldScreenRect = new Vector2(Screen.width, Screen.height); // For Refresh on screen resizing
-    //public int NumberOfRedraws = 0;
     public void Awake()
     {
         GetRectTransformParents(OldRectTransformParents);
@@ -49,35 +50,33 @@ public class ArabicText : MonoBehaviour
 
     private bool CheckRectTransformParentsIfChanged()
     {
-        List<RectTransform> CurrentRectTransformParents = new List<RectTransform>();
-        GetRectTransformParents(CurrentRectTransformParents);
-
-        if (CurrentRectTransformParents.Count != OldRectTransformParents.Count)
-            return true;
-
-        for (int i = 0; i < CurrentRectTransformParents.Count; i++)
+        bool hasChanged = false;
+        for (int i = 0; i < OldRectTransformParents.Count; i++)
         {
-            if (CurrentRectTransformParents[i] != OldRectTransformParents[i])
-                return true;
-
-            if (!RectTransform.Equals(CurrentRectTransformParents[i], OldRectTransformParents[i]))
-                return true;
+            hasChanged |= OldRectTransformParents[i].hasChanged;
+            OldRectTransformParents[i].hasChanged = false;
         }
 
-        return false;
+        return hasChanged;
     }
 
     public void Update()
     {
+        if (!txt)
+            return;
+
+        if (RefrenceInput)
+            Text = RefrenceInput.text;
+
+        // if No Need to Refresh
         if (OldText == Text &&
             OldFontSize == txt.fontSize &&
             OldDeltaSize == rectTransform.sizeDelta &&
             OldEnabled == txt.enabled &&
-            (OldScreenRect.x == Screen.width && OldScreenRect.y == Screen.height &&
-            !CheckRectTransformParentsIfChanged()) ) // Not Need Refresh
+            (OldScreenRect.x == Screen.width && OldScreenRect.y == Screen.height && 
+            !CheckRectTransformParentsIfChanged()))
             return;
 
-        //NumberOfRedraws++;
 
         FixTextForUI();
 
@@ -87,7 +86,6 @@ public class ArabicText : MonoBehaviour
         OldEnabled = txt.enabled;
         OldScreenRect.x = Screen.width;
         OldScreenRect.y = Screen.height;
-        GetRectTransformParents(OldRectTransformParents);
     }
 
     public void FixTextForUI()
@@ -123,7 +121,7 @@ public class ArabicText : MonoBehaviour
             }
             txt.text = finalText.TrimEnd('\n');
         }
-        else
+        else if(txt)
             txt.text = "";
     }
 }
