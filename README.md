@@ -1,6 +1,6 @@
 # Arabic Unity UI
 Arabic Unity UI is an open source help Games Developer to create a good arabic support for games.
-Using Arabic with Unity UIs now is easy and also support large texts with no problems (Hopefully :) , it's very easy to implement just drag and drop Prefabs to your Canvas or you can use the ArabicSupport Component as you need with other UIs
+Using Arabic with Unity UIs now is easy and also support large texts with no problems (Hopefully :) , it's very easy to implement just by drag and drop Prefabs to your Canvas or you can use the ArabicSupport Component as you need with other UIs
 
 Download: [latest release](https://github.com/AbdullahAlimam/Arabic-Support-for-Unity-UI/releases)
 
