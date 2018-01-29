@@ -1,6 +1,20 @@
-# Arabic-Support-for-Unity-UI
-Using Arabic with Unity Text UI now is easy and also support large texts with no problems, it's very easy to implement just drag and drop [arText] Prefab to your Canvas
+# Arabic Unity UI
+Arabic Unity UI is an open source help Games Developer to create a good arabic support for games.
+Using Arabic with Unity UIs now is easy and also support large texts with no problems (Hopefully :) , it's very easy to implement just by drag and drop Prefabs to your Canvas or you can use the ArabicSupport Component as you need with other UIs
 
-[![Arabic-Support-for-Unity-UI](https://img.youtube.com/vi/senKV2CdH6Y/0.jpg)](https://www.youtube.com/watch?v=senKV2CdH6Y)
+Download: [latest release](https://github.com/AbdullahAlimam/Arabic-Support-for-Unity-UI/releases)
 
-Download [Release 1.0.2](https://github.com/AbdullahAlimam/Arabic-Support-for-Unity-UI/blob/master/Arabic%20Support%20UI.unitypackage?raw=true)
+Supported UIs
+-------
+
+* Text UI (Contains Prefab)
+* Input Field UI (Contains Prefab)
+* Togle UI (Contains Prefab)
+* Button 
+
+Tutorial
+-------
+
+this taturail will help you how to use ArabicSupport Component with a Text UI.
+
+[![Arabic Unity Text UI](https://img.youtube.com/vi/senKV2CdH6Y/0.jpg)](https://www.youtube.com/watch?v=senKV2CdH6Y)
