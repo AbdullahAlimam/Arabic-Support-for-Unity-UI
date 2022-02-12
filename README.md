@@ -20,12 +20,6 @@ this taturail will help you how to use ArabicSupport Component with a Text UI.
 [![Arabic Unity Text UI](https://img.youtube.com/vi/senKV2CdH6Y/0.jpg)](https://www.youtube.com/watch?v=senKV2CdH6Y)
 
 
-# Donation Link
+# Donation Link 😊
 
 [![Donate](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z2333E65JCCMC)
-
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="Z2333E65JCCMC" />
-<input type="image" src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
-</form>
