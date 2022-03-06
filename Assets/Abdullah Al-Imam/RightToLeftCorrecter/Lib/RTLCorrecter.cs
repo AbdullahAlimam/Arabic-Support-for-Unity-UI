@@ -2,7 +2,7 @@
 
 namespace Unity3D_Arabic
 {
-    public class RTLLCorrecter
+    public class RTLCorrecter
     {
         public const Char NewLine = Settings.NewLine;
         public static string Correct(string text, bool flipBracket, NumberStyles numberStyle = NumberStyles.Arabic)

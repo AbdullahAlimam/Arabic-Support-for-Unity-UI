@@ -9,7 +9,7 @@ using UnityEditor;
 #endif
 
 [ExecuteInEditMode]
-public class RTLLCorrection : MonoBehaviour
+public class RTLCorrection : MonoBehaviour
 {
     [Multiline]
     public string Text;
@@ -102,10 +102,10 @@ public class RTLLCorrection : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(Text))
         {
-            string rtlText = RTLLCorrecter.Correct(Text, FlipBracket, NumberStyle);
+            string rtlText = RTLCorrecter.Correct(Text, FlipBracket, NumberStyle);
 
             string finalText = "";
-            string[] rtlParagraph = rtlText.Split(RTLLCorrecter.NewLine);
+            string[] rtlParagraph = rtlText.Split(RTLCorrecter.NewLine);
 
             txt.text = "";
             for (int lineIndex = 0; lineIndex < rtlParagraph.Length; lineIndex++)
@@ -125,10 +125,10 @@ public class RTLLCorrection : MonoBehaviour
                     string[] lineWords = txt.text.Substring(startIndex, length).Split(' ');
                     Array.Reverse(lineWords);
 
-                    finalText = finalText + string.Join(" ", lineWords).Trim() + RTLLCorrecter.NewLine;
+                    finalText = finalText + string.Join(" ", lineWords).Trim() + RTLCorrecter.NewLine;
                 }
             }
-            txt.text = finalText.TrimEnd(RTLLCorrecter.NewLine);
+            txt.text = finalText.TrimEnd(RTLCorrecter.NewLine);
         }
         else if(txt)
             txt.text = "";
@@ -136,14 +136,14 @@ public class RTLLCorrection : MonoBehaviour
 }
 
 #if UNITY_EDITOR
-[CustomEditor(typeof(RTLLCorrection))]
+[CustomEditor(typeof(RTLCorrection))]
 public class RTLLCorrectionEditor : Editor
 {
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
 
-        RTLLCorrection myScript = (RTLLCorrection)target;
+        RTLCorrection myScript = (RTLCorrection)target;
         if (GUILayout.Button("Refresh"))
         {
             myScript.Start(); // init Varables

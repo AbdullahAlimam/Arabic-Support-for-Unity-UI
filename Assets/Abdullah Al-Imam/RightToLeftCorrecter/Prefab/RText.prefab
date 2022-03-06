@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2304242925371257140}
   - component: {fileID: 2302404913505875906}
   - component: {fileID: 2121749056957257446}
-  - component: {fileID: 2081880021967986189}
   m_Layer: 5
   m_Name: RText
   m_TagString: Untagged
@@ -83,21 +82,3 @@ MonoBehaviour:
   m_Text: "\uFEAE\uFEF4\uFE9C\uFEDC\uFEDF\uFE8D \uFE90\uFE92\uFEB4\uFEF3 \uFE9E\uFECB\uFEB0\uFEE3
     \uFEED \uFE8D\uFEAA\uFE9F \uFE8D\uFEAA\uFE9F \uFE8D\uFEAA\uFE9F \uFEDE\uFEF3\uFEEE\uFEC3
     \uFEBA\uFEE7 \uFE8D\uFEAC\uFEEB\n\uFEDE\uFEDB\uFE8E\uFEB8\uFEE4\uFEDF\uFE8D \uFEE6\uFEE3"
---- !u!114 &2081880021967986189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081444410582970676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb23924dba878a54fb3a63649e902028, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Text: "\u0647\u0630\u0627 \u0646\u0635 \u0637\u0648\u064A\u0644 \u062C\u062F\u0627
-    \u062C\u062F\u0627 \u062C\u062F\u0627 \u0648 \u0645\u0632\u0639\u062C \u064A\u0633\u0628\u0628
-    \u0627\u0644\u0643\u062B\u064A\u0631 \u0645\u0646 \u0627\u0644\u0645\u0634\u0627\u0643\u0644"
-  RefrenceInput: {fileID: 0}
-  NumberStyle: 1
-  FlipBracket: 1
