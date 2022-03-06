@@ -10,7 +10,7 @@ Supported UIs
 * Text UI (Contains Prefab)
 * Input Field UI (Contains Prefab)
 * Togle UI (Contains Prefab)
-* Button 
+* Button (Contains Prefab)
 
 Tutorial
 -------
