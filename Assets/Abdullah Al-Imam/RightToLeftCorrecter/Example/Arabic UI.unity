@@ -1988,7 +1988,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1999,9 +1999,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFEDE\uFEDB\uFE8E\uFEB8\uFEE4\uFEDF\uFE8D \uFEE6\uFEE3 \uFEAE\uFEF4\uFE9C\uFEDC\uFEDF\uFE8D
-    \uFE90\uFE92\uFEB4\uFEF3 \uFE9E\uFECB\uFEB0\uFEE3 \uFEED \uFE8D\uFEAA\uFE9F \uFE8D\uFEAA\uFE9F
-    \uFE8D\uFEAA\uFE9F \uFEDE\uFEF3\uFEEE\uFEC3 \uFEBA\uFEE7 \uFE8D\uFEAC\uFEEB"
+  m_Text: "\uFE9E\uFECB\uFEB0\uFEE3 \uFEED \uFE8D\uFEAA\uFE9F \uFE8D\uFEAA\uFE9F
+    \uFE8D\uFEAA\uFE9F \uFEDE\uFEF3\uFEEE\uFEC3 \uFEBA\uFEE7 \uFE8D\uFEAC\uFEEB\n\uFEDE\uFEDB\uFE8E\uFEB8\uFEE4\uFEDF\uFE8D
+    \uFEE6\uFEE3 \uFEAE\uFEF4\uFE9C\uFEDC\uFEDF\uFE8D \uFE90\uFE92\uFEB4\uFEF3"
 --- !u!222 &222817990249484416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2025,8 +2025,8 @@ RectTransform:
   m_Father: {fileID: 554635757}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1973981, y: 0.56132495}
-  m_AnchorMax: {x: 0.657, y: 0.70786583}
-  m_AnchoredPosition: {x: 0.12423706, y: 0.12449646}
-  m_SizeDelta: {x: -0.25851, y: -0.176}
+  m_AnchorMin: {x: 0.26464662, y: 0.54135716}
+  m_AnchorMax: {x: 0.5417439, y: 0.68799055}
+  m_AnchoredPosition: {x: 0.13586426, y: 0.12449646}
+  m_SizeDelta: {x: -0.2353, y: -0.176}
   m_Pivot: {x: 0.5, y: 0.5}
