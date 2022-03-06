@@ -18,3 +18,9 @@ Tutorial
 this taturail will help you how to use ArabicSupport Component with a Text UI.
 
 [![Arabic Unity Text UI](https://img.youtube.com/vi/senKV2CdH6Y/0.jpg)](https://www.youtube.com/watch?v=senKV2CdH6Y)
+
+
+# Donation Link 😊
+### Please donate so I can find time to upgrade Unity Arabic Tool
+
+[![Donate](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z2333E65JCCMC)
